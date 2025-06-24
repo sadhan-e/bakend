@@ -155,6 +155,6 @@ SESSION_COOKIE_SECURE = os.environ.get('SESSION_COOKIE_SECURE', 'True') == 'True
 CSRF_COOKIE_SECURE = os.environ.get('CSRF_COOKIE_SECURE', 'True') == 'True'
 
 # Add the Render URL to trusted origins for CSRF
-CSRF_TRUSTED_ORIGINS = ['https://*.trycloudflare.com']
+CSRF_TRUSTED_ORIGINS = ['']
 if RENDER_EXTERNAL_HOSTNAME:
     CSRF_TRUSTED_ORIGINS.append(f"https://{RENDER_EXTERNAL_HOSTNAME}")
