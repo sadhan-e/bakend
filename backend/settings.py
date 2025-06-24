@@ -146,6 +146,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "https://frontend-sigma-five-55.vercel.app",
+    "http://localhost:8080",
+    "http://192.168.158.92:8080",
 ]
 
 # Proxy and SSL settings for Render
