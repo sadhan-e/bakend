@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "bakend-k6wm.onrender.com",
-    "bidding-compute-mar-fu.trycloudflare.com",
+    "bakend-sand.vercel.app",
     "127.0.0.1",
     "http://localhost:8080/",
     "*",  # Allow all hosts
@@ -172,5 +172,5 @@ SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
 CSRF_TRUSTED_ORIGINS = [
     "https://frontend-d3qm8mzbg-snehas-projects-9f78f140.vercel.app",
-    "https://bakend-k6wm.onrender.com",
+    "https://bakend-sand.vercel.app",
 ]
