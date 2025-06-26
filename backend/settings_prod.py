@@ -9,7 +9,7 @@ DEBUG = False
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'your-secret-key-here')
 
 # Update allowed hosts with your PythonAnywhere domain
-ALLOWED_HOSTS = ['.pythonanywhere.com', 'yourusername.pythonanywhere.com']
+ALLOWED_HOSTS = ['bakend-k6wm.onrender.com', 'yourusername.pythonanywhere.com']
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
@@ -22,7 +22,7 @@ DATABASES = {
 
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
-    "https://yourusername.pythonanywhere.com",
+    "https://frontend-d3qm8mzbg-snehas-projects-9f78f140.vercel.app",
     "http://yourusername.pythonanywhere.com",
 ]
 
