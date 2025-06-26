@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "bakend-k6wm.onrender.com",
-    "bakend-sand.vercel.app",
+    "bakend-33rhtzc7s-snehas-projects-9f78f140.vercel.app",
     "127.0.0.1",
     "http://localhost:8080/",
     "*",  # Allow all hosts
