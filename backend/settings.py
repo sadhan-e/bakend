@@ -162,13 +162,15 @@ CORS_ALLOW_HEADERS = [
     'x-csrftoken',
     'x-requested-with',
 ]
-
+CORS_ALLOWED_ORIGINS = [
+    "https://frontend-sigma-five-55.vercel.app",
+]
 # Security settings
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 SECURE_SSL_REDIRECT = False
 SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
 CSRF_TRUSTED_ORIGINS = [
-    "https://apnic-paul-basis-trinidad.trycloudflare.com",
-    "https://bidding-compute-mar-fu.trycloudflare.com",
+    "https://frontend-sigma-five-55.vercel.app",
+    "https://bakend-k6wm.onrender.com",
 ]
