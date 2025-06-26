@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-6or)r$!*o=%n)3%d5_mhd6z2%d(tqn&zp69zjs-&z_$0ml5i8&
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "apnic-paul-basis-trinidad.trycloudflare.com",
+    "https://bakend-k6wm.onrender.com",
     "bidding-compute-mar-fu.trycloudflare.com",
     "127.0.0.1",
     "http://localhost:8080/",
