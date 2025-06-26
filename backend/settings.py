@@ -163,7 +163,7 @@ CORS_ALLOW_HEADERS = [
     'x-requested-with',
 ]
 CORS_ALLOWED_ORIGINS = [
-    "frontend-m92fxird6-snehas-projects-9f78f140.vercel.app",
+    "https://frontend-m92fxird6-snehas-projects-9f78f140.vercel.app",
 ]
 # Security settings
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
