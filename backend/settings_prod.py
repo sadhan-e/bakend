@@ -9,7 +9,7 @@ DEBUG = False
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'your-secret-key-here')
 
 # Update allowed hosts with your PythonAnywhere domain
-ALLOWED_HOSTS = ['bakend-k6wm.onrender.com', 'yourusername.pythonanywhere.com']
+ALLOWED_HOSTS = ['bakend-k6wm.onrender.com', 'bakend-33rhtzc7s-snehas-projects-9f78f140.vercel.app']
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
