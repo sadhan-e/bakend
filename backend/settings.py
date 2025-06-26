@@ -163,7 +163,7 @@ CORS_ALLOW_HEADERS = [
     'x-requested-with',
 ]
 CORS_ALLOWED_ORIGINS = [
-    "https://frontend-d3qm8mzbg-snehas-projects-9f78f140.vercel.app/",
+    "frontend-d3qm8mzbg-snehas-projects-9f78f140.vercel.app",
 ]
 # Security settings
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
@@ -171,6 +171,6 @@ SECURE_SSL_REDIRECT = False
 SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
 CSRF_TRUSTED_ORIGINS = [
-    "https://frontend-d3qm8mzbg-snehas-projects-9f78f140.vercel.app/",
+    "frontend-d3qm8mzbg-snehas-projects-9f78f140.vercel.app",
     "https://bakend-k6wm.onrender.com",
 ]
