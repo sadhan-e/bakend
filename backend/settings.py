@@ -173,6 +173,6 @@ SECURE_SSL_REDIRECT = False
 SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
 CSRF_TRUSTED_ORIGINS = [
-    "https://frontend-d3qm8mzbg-snehas-projects-9f78f140.vercel.app",
-    "frontend-sigma-five-55.vercel.app",
+    "https://frontend-d3qm8mzbg-snehas-projects-9f78f140.vercel.app/api",
+    "frontend-sigma-five-55.vercel.app/api",
 ]
