@@ -164,7 +164,8 @@ CORS_ALLOW_HEADERS = [
     'x-requested-with',
 ]
 CORS_ALLOWED_ORIGINS = [
-    "https://frontend-d3qm8mzbg-snehas-projects-9f78f140.vercel.app",
+    "http://localhost:8080",
+    "http://192.168.0.117:8080",
 ]
 # Security settings
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
